@@ -12,3 +12,4 @@ PHP is a server-side language that has become a massive success for three reason
 - [x] Creating My firs echo to the world. (First PHP program)
 - [x] Writing comments
 - [x] Creating variables
+- [x] Creating Data Types
