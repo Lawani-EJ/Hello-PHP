@@ -33,6 +33,24 @@ $a = "Hiiiii :)";
 echo "String Variable: $a \n";
 $a = 'nICE To meet you!!';
 echo "String Variable: $a \n";
+
+//Boolean
+$a = true;
+echo "Boolean Variable: $a \n";
+
+//Array
+//Indexing an array
+$a = array("PHP", "Python", "Java", "C++");
+echo "Array Variables: \n";
+print_r($a);
+echo $a[0];
+//Associative Array
+//Associative array is an array that uses named keys that you assign to them
+//Associative arrays are used to store key value pairs
+$a = array("Name" => "John", "Age" => 21);
+echo "Associative Array: \n";
+print_r($a);
+echo $a["Name"];
 ?>
 </body>
 </html>
