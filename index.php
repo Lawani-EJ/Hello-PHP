@@ -7,18 +7,15 @@
 </head>
 <body>    
 <?php 
-$planets = array("Mercury", "Venus", "Earth", "Mars");
+$spacecraft = array(
+    "name" => "Apollo 11",
+    "launch_year" => 1969,
+    "crew_size" => 3
+);
 
-echo "The 1st planet in our solar system is " . $planets[0] . "\n";
-echo "The 4th planet in our solar system is " . $planets[3] . "\n";
-
-// Add a new planet to the array
-$planets[] = "Jupiter";
-echo "We have added a new planet, now the 5th planet is " . $planets[4] . "\n";
-
-// Update a planet in the array
-$planets[1] = "Vulcan";
-echo "After renaming, the 2nd planet is " . $planets[1] . "\n";
+echo "Spacecraft Name: " . $spacecraft["name"] . "\n";
+echo "Launch Year: " . $spacecraft["launch_year"] . "\n";
+echo "Crew Size: " . $spacecraft["crew_size"] . "\n";
 ?>
 </body>
 </html>
