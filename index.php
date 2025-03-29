@@ -7,15 +7,14 @@
 </head>
 <body>    
 <?php 
-$spacecraft = array(
-    "name" => "Apollo 11",
-    "launch_year" => 1969,
-    "crew_size" => 3
-);
+$oxygenlevel = 65;
 
-echo "Spacecraft Name: " . $spacecraft["name"] . "\n";
-echo "Launch Year: " . $spacecraft["launch_year"] . "\n";
-echo "Crew Size: " . $spacecraft["crew_size"] . "\n";
+//check if oxygen level is higher than 60
+if ($oxygenlevel > 60) {
+    echo "Oxygen level is high";
+} else {
+    echo "Oxygen level is low";
+}
 ?>
 </body>
 </html>
