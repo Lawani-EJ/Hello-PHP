@@ -15,5 +15,6 @@ PHP is a server-side language that has become a massive success for three reason
 - [x] Creating Data Types
 - [x] Working with arrays
 - [x] Working with associative arrays
+- [x] Creating Objects in PHP
 - [x] Working with conditional statements
 - [] working with equality and inequality operations
